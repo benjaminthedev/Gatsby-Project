@@ -5,6 +5,7 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import CodeImage from "../components/new"
 import SEO from "../components/seo"
+import NewImage from "../components/NewImage"
 
 
 
@@ -14,8 +15,7 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home"
-      description="This is the Home page!"
-      title="Hello World" />
+    />
     <h1>This is a Gastby Build</h1>
 
     <p>Now go build something great.</p>
@@ -24,11 +24,22 @@ const IndexPage = () => (
     </div>
 
     <div style={{ maxWidth: `900px`, marginBottom: `1.45rem` }}>
-
       <CodeImage />
     </div>
 
-    <em>well that seems to be a odd way to add an image?</em>
+
+    <NewImage
+      src={"/images/myEyes.png"}
+      alt={"Oh lord my eyes!"}
+    />
+
+    <NewImage
+      src={"/images/Code.png"}
+      alt={"New Code!"}
+    />
+
+
+
     <Link to="/page-2/">Page 2</Link> <br />
     <Link to="/about/">About Me</Link> <br />
     <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
