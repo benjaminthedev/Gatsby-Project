@@ -16,6 +16,25 @@ const IndexPage = () => (
     <Layout>
         <SEO title="Test Page"
         />
+        <NewImage
+            src={"/images/myEyes.png"}
+            alt={"Oh lord my eyes!"}
+        />
+
+        <NewImage
+            src={"/images/Code.png"}
+            alt={"New Code!"}
+        /><NewImage
+            src={"/images/myEyes.png"}
+            alt={"Oh lord my eyes!"}
+        />
+
+        <NewImage
+            src={"/images/Code.png"}
+            alt={"New Code!"}
+        />
+
+
         <h1>This is a Test Gastby Build</h1>
 
         <p>Now go build something great.</p>
