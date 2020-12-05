@@ -5,8 +5,8 @@ const NewImage = ({ src, alt }) => {
         <figure>
             <img
                 src={src}
-                width="480"
-                height="480"
+                width="460"
+                height="460"
                 alt={alt}
             />
         </figure>
