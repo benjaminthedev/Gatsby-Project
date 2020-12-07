@@ -21,13 +21,7 @@ const IndexPage = () => (
             alt={"Oh lord my eyes!"}
         />
 
-        <NewImage
-            src={"/images/Code.png"}
-            alt={"New Code!"}
-        /><NewImage
-            src={"/images/myEyes.png"}
-            alt={"Oh lord my eyes!"}
-        />
+
 
         <NewImage
             src={"/images/Code.png"}

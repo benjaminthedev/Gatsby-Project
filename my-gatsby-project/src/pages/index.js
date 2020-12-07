@@ -40,12 +40,7 @@ const IndexPage = () => (
 
 
 
-    <Link to="/page-2/">Page 2</Link> <br />
-    <Link to="/about/">About Me</Link> <br />
-    <Link to="/about/">Projeccts</Link> <br />
-    <Link to="/about/">Code</Link> <br />
-    <Link to="/about/">Hobbies</Link> <br />
-    <Link to="/about/">Speaking</Link> <br />
+
 
   </Layout>
 )
